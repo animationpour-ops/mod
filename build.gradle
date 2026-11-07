@@ -60,7 +60,6 @@ tasks.named('jar', Jar).configure {
             'Implementation-Vendor' : 'Projet perso'
         ])
     }
-    finalizedBy 'reobfJar'
 }
 
 tasks.withType(JavaCompile).configureEach {
